@@ -6,9 +6,9 @@ public class application {
         Scanner input =new Scanner(System.in);
 
         // output the prompt
-        System.out.println("Enter a number");
+        System.out.println("Enter a floating");
         // wait the user to enter something
-        int value = input.nextInt();
+       double value =input.nextDouble();
         System.out.println("you enterd:" + value);
     }
 }
